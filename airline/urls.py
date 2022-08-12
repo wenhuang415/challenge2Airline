@@ -3,5 +3,5 @@ from .views import AirlineList
 
 
 urlpatterns = [
-    path('', AirlineList.as_view()),
+    path('airline', AirlineList.as_view()),
 ]
